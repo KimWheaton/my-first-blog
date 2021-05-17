@@ -1,4 +1,4 @@
-cd {% load static %}
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,16 +13,16 @@ cd {% load static %}
                 <a href="{% url 'post_new' %}" class="top-menu">
                         {% include './icons/file-earmark-plus.svg' %}
                 </a>
-                <h1><a href="/">The Buzzz</a></h1>
+                <h1><a href="/">The Buzzz... a blog about bees</a></h1>
             </div>
         </header>
-    <main class="container">
-        <div class="row">
-            <div class="col">
-            {% block content %}
-            {% endblock %}
+        <main class="container">
+            <div class="row">
+                <div class="col">
+                    {% block content %}
+                    {% endblock %}
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
     </body>
 </html>
