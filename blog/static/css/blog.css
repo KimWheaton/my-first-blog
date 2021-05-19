@@ -24,6 +24,7 @@ h2,
 h3,
 h4 {
     font-family: 'Lobster', cursive;
+    color: #000000;
 }
 
 .date {
@@ -50,11 +51,14 @@ h4 {
 
 .post {
     margin-bottom: 70px;
+    color: #000000;
 }
 
-.post h3 a,
-.post h3 a:visited {
+.post h2 a {
     color: #000000;
+}
+.post h2 a:visited {
+    color: #f8cd0f;
 }
 
 .post > .date,
