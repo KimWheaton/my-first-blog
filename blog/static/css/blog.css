@@ -14,11 +14,16 @@
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'DancingScript', bold; 
+    font-family: 'Lobster', cursive;
 }
 
 .date {
